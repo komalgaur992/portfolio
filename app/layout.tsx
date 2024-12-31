@@ -24,7 +24,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+<<<<<<< HEAD
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
+=======
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
+>>>>>>> 1e4b143 (Initial commit from Create Next App)
         {children}
       </body>
     </html>
